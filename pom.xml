@@ -44,6 +44,21 @@
             <version>5.1.48</version>
         </dependency>
     </dependencies>
+    
+    <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/7XM2cIShTclMZ5oJ8Wsi/</url>
+        </repository>
+    </repositories>
+    
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/KU2fwBa9qPIHHIiJxbI9/</url>
+        </repository>
+    </distributionManagement>
+        
 
     <build>
         <plugins>
